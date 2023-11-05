@@ -9,6 +9,17 @@ public class duotaitest {
     }
 }
 
+abstract class Ab {
+    public abstract void pring();
+}
+
+class Bc extends Ab{
+
+    @Override
+    public void pring() {
+        System.out.println("hello");
+    }
+}
 class Circle{
     private int r;
 
@@ -30,6 +41,7 @@ class Circle2 extends Circle implements varff{
     }
 
 }
+// 接口中的变量都是 public static final 常量类型的
  interface varff{
     public static final int i=9;
 }

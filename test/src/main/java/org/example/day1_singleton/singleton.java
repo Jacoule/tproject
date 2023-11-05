@@ -20,5 +20,6 @@ public class singleton {
 
     }
     //实例代码块，在对象构造方法之前执行
-    {}
+    {
+    }
 }
