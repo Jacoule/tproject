@@ -2,19 +2,43 @@ package org.base.day5_arrays;
 
 import lombok.Data;
 
+import java.util.Objects;
+
+
 @Data
 public class Student implements Comparable<Student>{
     Integer age;
     Double height;
+    String name;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {return true;}
+        if (o == null || getClass() != o.getClass()) {return false;}
+        Student student = (Student) o;
+        return Objects.equals(age, student.age) && Objects.equals(height, student.height) && Objects.equals(name, student.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(age, height, name);
+    }
 
     public Student() {
 
     }
 
-    Student(Integer age ,Double height) {
+    public Student(Integer age, Double height, String name) {
+        this.age = age;
+        this.height = height;
+        this.name = name;
+    }
+
+    public Student(Integer age , Double height) {
         this.age=age;
         this.height= height;
     }
+
 
 
     // 可以调用Arrays.sort 方法
