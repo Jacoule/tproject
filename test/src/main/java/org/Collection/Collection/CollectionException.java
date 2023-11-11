@@ -1,5 +1,7 @@
 package org.Collection.Collection;
 
+import org.Collection.List.ArrayListDemo1;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -53,7 +55,6 @@ public class CollectionException {
             }
         }
         System.out.println(list);
-
         /**
          * 无法修好的写法
          */
@@ -62,6 +63,7 @@ public class CollectionException {
 
         }
 
+        new Arr
         //Lambda 表达式 无法解决并发修改异常问题
         list.forEach(new Consumer<String>() {
             @Override

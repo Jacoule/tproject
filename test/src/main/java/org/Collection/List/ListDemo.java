@@ -14,7 +14,7 @@ public class ListDemo {
         list.add("OI");
         list.add("KO");
         list.add("Tom");
-
+        ArrayListDemo1 arrayListDemo1 = new ArrayListDemo1();
         System.out.println(list);
         //在指定索引位置添加元素
         list.add(2,"何子孝");

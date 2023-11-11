@@ -20,6 +20,7 @@ public class LinkedListDemo1 {
      * public E removeLast()   删除最后一个元素
      */
     public static void main(String[] args) {
+
         //应用场景 设计队列（先进先出）  医院叫号 排队
         LinkedList<String> list = new LinkedList<>() ;
         list.addLast("1");
