@@ -47,6 +47,5 @@ public class StreamDemo1 {
         Stream<String> stream3 = Arrays.stream(neame2);
         Stream<String> neame21 = Stream.of(neame2);
 
-
     }
 }
