@@ -3,7 +3,7 @@ package org.Collection.List;
 import java.util.ArrayList;
 import java.util.List;
 
-class ArrayListDemo1 {
+public class ArrayListDemo1 {
     public static void main(String[] args) {
         /**
          * ArrayList

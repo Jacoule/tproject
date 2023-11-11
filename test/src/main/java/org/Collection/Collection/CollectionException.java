@@ -63,7 +63,7 @@ public class CollectionException {
 
         }
 
-        new Arr
+
         //Lambda 表达式 无法解决并发修改异常问题
         list.forEach(new Consumer<String>() {
             @Override
