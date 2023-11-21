@@ -10,7 +10,7 @@ public class T1 {
     public static void main(String[] args) {
         //1、定义爬取规则
         String regex = "1[2-9]{5}|123";
-        String string = "122222 123";
+        String string = "122222123133333";
         //2.把正则表达式封装成一个 Pattern 对象
         Pattern pattern = Pattern.compile(regex);
 
@@ -23,7 +23,7 @@ public class T1 {
             System.out.println(S);
         }
 
-        System.out.println(string.matches(regex));
+        System.out.println(string.matches("122222"));
     }
 
     public static boolean chrackQQ(String s){
