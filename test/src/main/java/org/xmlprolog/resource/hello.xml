@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<user>
+    <people>
+        <name>hezixiao</name>
+        <age>23</age>
+        <data>3 &lt;</data>
+    </people>
+    <people>
+        <name>haha</name>
+        <age>16</age>
+        <data>
+            <![CDATA[
+            3<ev;dfg;
+            ]]>
+        </data>
+    </people>
+</user>
