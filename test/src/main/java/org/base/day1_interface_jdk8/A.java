@@ -7,7 +7,7 @@ public interface A {
      * 1、默认方法 必须使用 default 默认被 public 修饰
      * 实例方法 对象的方法 必须使用实现类的对象来访问
      */
-    public default void test1(){
+    default void test1(){
 
     }
 
